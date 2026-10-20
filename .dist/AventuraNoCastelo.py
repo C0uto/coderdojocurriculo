@@ -79,10 +79,10 @@ def lago(tem_chave):
     print("3 - Voltas trás")
     escolha = input("O que fazes? ")
     if escolha == "1":
-        print("\nDas profundezas do lago surge um monstro marinho que acaba por comer-te.\n")
+        print("\nDas profundezas do lago surge um monstro marinho que acaba por comer-te.")
         fim_do_jogo(False)
     elif escolha == "2":
-        print("\nDas profundezas do lago surge um monstro marinho que acaba por destruir o teu barco e comer-te.\n")
+        print("\nDas profundezas do lago surge um monstro marinho que acaba por destruir o teu barco e comer-te.")
         fim_do_jogo(False)
     elif escolha == "3":
         sala_entrada(tem_chave)
@@ -118,9 +118,9 @@ def castelo(tem_chave):
 
 def fim_do_jogo(vitoria):
     if vitoria:
-        print("🏆 Encontraste o tesouro! Ganhaste!")
+        print("\n🏆 Encontraste o tesouro! Ganhaste!")
     else:
-        print("💀 Perdeste... Tenta outra vez!")
+        print("\n💀 Perdeste... Tenta outra vez!")
 
 print("=== A Aventura do Castelo ===")
 introducao()
