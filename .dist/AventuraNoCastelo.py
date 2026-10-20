@@ -1,12 +1,10 @@
 import random
 
 def introducao():
-    print("\nHá muitos anos, um rei escondeu o seu maior tesouro")
-    print("num castelo no alto da montanha. 🏰")
-    print("\nDizem que o castelo está abandonado, mas que um")
-    print("dragão guarda a porta do tesouro. 🐉")
+    print("\nHá muito muito muito tempo atrás, um rei escondeu o seu enorme tesouro no seu castelo no alto da montanha. 🏰")
+    print("\nNa aldeia ouve-se rumores que o castelo está ocupado por um enorme dragão a proteger o seu tesouro. 🐉")
     print("\nSó quem encontrar a chave dourada conseguirá entrar...")
-    print("\nA tua missão, ninja, é encontrar o tesouro!")
+    print("\nA tua missão, ninja, é encontrar a chave e conseguir o tesouro!")
     input("\nPrime ENTER para começar a aventura... ")
 
 def sala_entrada(tem_chave):
