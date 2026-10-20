@@ -9,7 +9,7 @@ def dividir(a, b):
         return "Não é possível dividir por zero!"
     return a / b
 def mostrar_menu():
-    print("--- Calculadora Dojo 3000 ---")
+    print("\n--- Calculadora Dojo 3000 ---")
     print("1 - Somar")
     print("2 - Subtrair")
     print("3 - Multiplicar")
@@ -17,19 +17,19 @@ def mostrar_menu():
     print("0 - Sair")
 while True:
     mostrar_menu()
-    opcao = input("Escolhe uma opção: ")
+    opcao = input("\nEscolhe uma opção: ")
     if opcao == "0":
-        print("Até à próxima, ninja!")
+        print("\nAté à próxima, ninja!")
         break
-    x = float(input("Primeiro número: "))
-    y = float(input("Segundo número: "))
+    x = float(input("\nPrimeiro número: "))
+    y = float(input("\nSegundo número: "))
     if opcao == "1":
-        print("Resultado:", somar(x, y))
+        print("\nResultado:", somar(x, y))
     elif opcao == "2":
-        print("Resultado:", subtrair(x, y))
+        print("\nResultado:", subtrair(x, y))
     elif opcao == "3":
-        print("Resultado:", multiplicar(x, y))
+        print("\nResultado:", multiplicar(x, y))
     elif opcao == "4":
-        print("Resultado:", dividir(x, y))
+        print("\nResultado:", dividir(x, y))
     else:
-        print("Opção inválida!")
+        print("\nOpção inválida!")
